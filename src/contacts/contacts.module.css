@@ -1,0 +1,73 @@
+.contactlink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    width: 80%;
+    margin: 150px auto;
+    /* cursor: pointer; */
+}
+
+.contactblock{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.social{
+    padding: 20px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.138vw;
+    line-height: 19px;
+    color: #252525;
+}
+
+.contlinks{
+    list-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.138vw;
+    line-height: 19px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #252525;
+    cursor: pointer;
+}
+
+.contactlink>h4{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.138vw;
+    line-height: 19px;
+    color: #252525;
+
+}
+
+.spn{
+    color: #E0BEA2;
+    font-size: 1.38vw;
+    display: flex;
+}
+
+.icn>img{
+    padding: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.headlink{
+    text-decoration: none;
+    color: #252525;
+    cursor: pointer;
+}
+
+.catlink{
+    text-decoration: none;
+    color: #252525;
+    cursor: pointer;
+
+}
+

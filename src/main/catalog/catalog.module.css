@@ -1,0 +1,301 @@
+.catalogheader{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cataloglink{
+    display: flex;
+    align-items: center;
+    gap: 1.6vw;
+
+}
+
+.gridbox{
+    width:83%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.imggrid{
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.logo{
+    color: #E0BEA2;
+}
+
+.catalogheader{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    position: relative;
+    top: 140px;
+}
+
+.cataloglist{
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+    padding: 0 0 40px;
+    gap: 7.2vw;
+
+}
+
+select{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.111vw;
+    line-height: 19px;
+    color: #252525;
+}
+
+.linkblock{
+    display: flex;
+    flex-direction: column;
+    gap: 0.90vw;
+    
+}
+
+.links{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+    color: #252525;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.flexbox{
+    margin: auto;
+    width: 80%;
+}
+
+.imagebox{
+   display: flex;
+   justify-content: space-between;
+}
+
+.selectoption{
+    border: none;
+    margin: 0 1.11vw;
+    cursor: pointer;
+    color: #252525;
+    font-size: 1.1vw;
+}
+
+
+
+.imaggirls{
+  position: relative;
+}
+
+.heartblock{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6vw;
+  height: 2.6vw;
+  background: #E0BEA2;
+  border-radius: 0px 0px 0px 20px;
+    
+}
+
+
+.heart{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 1.4vw;
+    height: 1.4vw;
+    z-index: 999;
+   
+}
+
+.color_parent{
+    display: flex;
+    gap: 0 5px;
+  }
+
+  .color_parent{
+    display: flex;
+    justify-content: center;
+  }
+
+.color_parent div{
+    width: 0.97vw;
+    height: 0.97vw;
+    border-radius: 50%;
+  }
+  .color_white{
+    border: 1px solid
+  }
+  .color_blue{
+    background-color:#6F83A4 ;
+  }
+  .color_yellow{
+    background-color:#F1DDAA ;
+
+  }
+
+  .information{
+    text-align: center;
+    line-height: 60px;
+    padding: 10px 0;
+  }
+
+  .paramerter{
+    line-height: 2.0vw;
+  }
+
+  .paramerter>h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.111vw;
+    line-height: 19px;
+    text-align: center;
+    color: #252525;
+
+  }
+
+  .paramerter>p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+    line-height: 19px;
+    text-align: center;
+    color: #252525;
+
+  }
+
+  .wearsheader{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 250px 0;
+  }
+
+  .cataloghead{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.11vw;
+    line-height: 19px;
+    color: #252525;
+  }
+
+  .cattwohead{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.11vw;
+    line-height: 19px;
+    color: #252525;
+  }
+
+  .anothercat{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3vw;
+    line-height: 23px;
+    color: #252525;
+
+  }
+
+  .sp{
+    color: #E0BEA2;
+  }
+
+
+@media only screen and (max-width: 750px){
+  .imggrid{
+    width: 100%;
+    height: 60%;
+  }
+
+  .cataloghead{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 19px;
+    color: #252525;
+  }
+
+  .cattwohead{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 19px;
+    color: #252525;
+  }
+
+  .anothercat{
+    font-size: 2vw;
+  }
+
+  .selectoption{
+    font-size: 1.8vw;
+  }
+
+  .selectblock{
+    display: flex;
+    width: 10%;
+  }
+
+  .links{
+    font-size: 1.8vw;
+  }
+
+  .paramerter>h2{
+    font-size: 1.8vw;
+
+  }
+
+  .paramerter>p{
+    font-size: 1.8vw;
+
+  }
+
+  .color_parent div{
+    width: 1.5vw;
+    height: 1.5vw;
+    
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .selectoption{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 7px;
+      line-height: 19px;
+      color: #252525;
+  }
+
+ 
+}
